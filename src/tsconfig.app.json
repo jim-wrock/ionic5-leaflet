@@ -2,7 +2,13 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "../out-tsc/app",
-    "types": []
+    // from angular leaflet tuto
+    "baseUrl": "./",
+    "module": "es2015",
+    // 
+    "types": [
+      "leaflet"
+    ]
   },
   "exclude": [
     "test.ts",
